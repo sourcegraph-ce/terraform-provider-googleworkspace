@@ -6,7 +6,7 @@ package googleworkspace
 import (
 	"fmt"
 	"io"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net"
 	"net/http"
 	"net/url"
