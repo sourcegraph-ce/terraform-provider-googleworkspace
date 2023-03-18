@@ -5,7 +5,7 @@ package googleworkspace
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 
 	"github.com/hashicorp/go-cty/cty"

@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	directory "google.golang.org/api/admin/directory/v1"
 	"google.golang.org/api/googleapi"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 )
 
 func resourceOrgUnit() *schema.Resource {

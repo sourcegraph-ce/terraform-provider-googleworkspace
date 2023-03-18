@@ -5,7 +5,7 @@ package googleworkspace
 
 import (
 	"context"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"net/http"
 
 	"github.com/hashicorp/go-cleanhttp"
